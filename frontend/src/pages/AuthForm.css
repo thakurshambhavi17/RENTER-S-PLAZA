@@ -1,0 +1,37 @@
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+}
+
+.auth-card {
+    padding: 3rem;
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+}
+
+.auth-card h2 {
+    margin-bottom: 0.5rem;
+}
+
+.auth-card p {
+    color: var(--color-gray);
+    margin-bottom: 2rem;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.auth-switch {
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
+    color: var(--color-gray);
+}
+
+.auth-switch a {
+    color: var(--color-primary);
+    font-weight: 600;
+}

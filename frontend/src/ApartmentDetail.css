@@ -1,0 +1,20 @@
+.apartment-detail h2 {
+  color: #00695c;
+}
+
+.apartment-detail img,
+.apartment-detail video {
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.review-box {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.review-box p {
+  margin: 0;
+}
