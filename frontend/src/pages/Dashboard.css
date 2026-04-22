@@ -1,0 +1,79 @@
+.dashboard-container {
+    padding: 1rem 0;
+}
+
+.dashboard-header {
+    margin-bottom: 0.5rem;
+}
+
+.dashboard-section {
+    padding: 2rem;
+    margin-top: 2rem;
+}
+
+.dashboard-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1.5rem;
+    background: var(--color-white);
+    border-radius: var(--radius-md);
+    overflow: hidden;
+}
+
+.dashboard-table th, .dashboard-table td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.dashboard-table th {
+    background-color: var(--color-light);
+    font-weight: 600;
+    color: var(--color-dark-soft);
+}
+
+.status-badge {
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.status-badge.pending {
+    background-color: #fef3c7;
+    color: #b45309;
+}
+
+.status-badge.confirmed {
+    background-color: #d1fae5;
+    color: #065f46;
+}
+
+.status-badge.rejected {
+    background-color: #fee2e2;
+    color: #b91c1c;
+}
+
+.table-btn {
+    padding: 0.4rem 0.8rem;
+    border-radius: var(--radius-sm);
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-right: 0.5rem;
+    transition: opacity 0.2s;
+}
+
+.table-btn:hover {
+    opacity: 0.8;
+}
+
+.table-btn.approve {
+    background-color: #10b981;
+    color: white;
+}
+
+.table-btn.reject {
+    background-color: #ef4444;
+    color: white;
+}

@@ -1,0 +1,25 @@
+/* Global theme overrides */
+body {
+  font-family: "Segoe UI", Roboto, sans-serif;
+  background-color: #f8f9fa; /* light gray background */
+  color: #333;
+}
+
+.navbar {
+  background-color: #00695c !important; /* teal OLX-style */
+}
+
+.navbar .nav-link,
+.navbar .navbar-brand {
+  color: #fff !important;
+}
+
+.navbar .btn-outline-danger {
+  border-color: #ff5252;
+  color: #ff5252;
+}
+
+.navbar .btn-outline-danger:hover {
+  background-color: #ff5252;
+  color: #fff;
+}

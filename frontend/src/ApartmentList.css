@@ -1,0 +1,17 @@
+.apartment-card {
+  transition: transform 0.2s ease-in-out;
+  border-radius: 8px;
+}
+
+.apartment-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.apartment-card img {
+  border-radius: 8px 8px 0 0;
+}
+
+.apartment-card h5 {
+  color: #00695c;
+}

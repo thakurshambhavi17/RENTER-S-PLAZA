@@ -1,0 +1,49 @@
+.search-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .filters {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .filters input {
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  .map-and-list {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .apartment-list {
+    flex: 1;
+    max-height: 500px;
+    overflow-y: auto;
+  }
+  
+  .apartment-card {
+    padding: 12px;
+    margin-bottom: 10px;
+    background: #f8f9fa;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .apartment-card:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  }
+  
+  .info-window img.info-image,
+  .info-window video.info-video {
+    max-width: 200px;
+    margin-top: 10px;
+    border-radius: 10px;
+  }
+  
